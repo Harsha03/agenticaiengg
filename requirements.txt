@@ -1,5 +1,7 @@
 python-dotenv
-openai
-requests
-pypdf
-gradio
+openai>=1.68.2
+requests>=2.32.3
+pypdf>=5.4.0
+gradio>=5.22.0
+sendgrid>=6.11.0
+openai-agents>=0.2.4
