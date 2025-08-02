@@ -1,0 +1,16 @@
+[project]
+name = "agenticaiengg"
+version = "0.1.0"
+description = "A minimal Python project using UV."
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+requires-python = ">=3.13.5"
+readme = "README.md"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
